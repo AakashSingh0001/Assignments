@@ -1,0 +1,15 @@
+.div3 {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.div4 {
+            border: 50px solid red;
+            padding: 100px;
+            margin-top: 50px;
+        }
+
+body {
+    background-color: aquamarine;
+}

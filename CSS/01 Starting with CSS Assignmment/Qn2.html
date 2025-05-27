@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEM Paragraph Styling</title>
+  <style>
+    /* Base style for all paragraphs */
+    .paragraph {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    /* Modifier for info paragraph */
+    .paragraph--info {
+      background-color: #dff9fb;
+      color: #130f40;
+      border-left: 5px solid #00a8ff;
+    }
+
+    /* Modifier for warning paragraph */
+    .paragraph--warning {
+      background-color: #f6e58d;
+      color: #7f6b00;
+      border-left: 5px solid #f0932b;
+    }
+
+    /* Modifier for success paragraph */
+    .paragraph--success {
+      background-color: #dfffd8;
+      color: #218c74;
+      border-left: 5px solid #27ae60;
+    }
+
+    /* Modifier for error paragraph */
+    .paragraph--error {
+      background-color: #ffcccc;
+      color: #c0392b;
+      border-left: 5px solid #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Styled Paragraphs Using BEM Naming Convention</h1>
+
+  <p class="paragraph paragraph--info">
+    This is an informational message. It uses the <code>paragraph--info</code> class.
+  </p>
+
+  <p class="paragraph paragraph--warning">
+    This is a warning message. Be cautious! This uses the <code>paragraph--warning</code> class.
+  </p>
+
+  <p class="paragraph paragraph--success">
+    This is a success message. Everything went well! Styled with <code>paragraph--success</code>.
+  </p>
+
+  <p class="paragraph paragraph--error">
+    This is an error message. Something went wrong! Uses <code>paragraph--error</code>.
+  </p>
+
+</body>
+</html>
